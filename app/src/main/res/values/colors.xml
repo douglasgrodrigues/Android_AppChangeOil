@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5777473</color>
+    <color name="colorPrimaryDark">#63604E</color>
+    <color name="colorAccent">#63B995</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fundo_menu">#8A877A</color>
+    <color name="fundo_header">#00000000</color>
+    <color name="fundo_home">#A3B2BF</color>
+
+</resources>
