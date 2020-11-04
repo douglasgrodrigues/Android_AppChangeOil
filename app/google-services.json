@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523767263698",
+    "firebase_url": "https://changeoil-6815d.firebaseio.com",
+    "project_id": "changeoil-6815d",
+    "storage_bucket": "changeoil-6815d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523767263698:android:f7908294ea82f19f12980b",
+        "android_client_info": {
+          "package_name": "com.example.changeoil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523767263698-8u5n878anksa2vtpm4m52g41curqoo6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.changeoil",
+            "certificate_hash": "5ec9e69d0b11a57954e3d2a87d22176bd4db44dc"
+          }
+        },
+        {
+          "client_id": "523767263698-rbe4rrqu8omr31dnm089s6v7kd9ivpkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVagsQMBIkrpC5SwsseeH5CnXd6xNoXoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523767263698-rbe4rrqu8omr31dnm089s6v7kd9ivpkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

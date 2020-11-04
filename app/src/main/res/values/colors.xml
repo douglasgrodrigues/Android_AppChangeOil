@@ -7,5 +7,6 @@
     <color name="fundo_menu">#8A877A</color>
     <color name="fundo_header">#00000000</color>
     <color name="fundo_home">#A3B2BF</color>
+    <color name="buttonBackground">#CEA3B2BF</color>
 
 </resources>
