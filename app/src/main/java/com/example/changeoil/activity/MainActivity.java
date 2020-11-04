@@ -1,4 +1,4 @@
-package com.example.changeoil;
+package com.example.changeoil.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
