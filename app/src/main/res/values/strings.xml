@@ -6,4 +6,7 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="create">Create</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_sair">Sair</string>
+
 </resources>

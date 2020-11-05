@@ -44,7 +44,6 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (!textoEmail.isEmpty()) {
                     if (!textoSenha.isEmpty()) {
-
                         usuario = new Usuario();
                         usuario.setEmail(textoEmail);
                         usuario.setSenha(textoSenha);
@@ -103,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         //autenticacao.signOut();
-        if( autenticacao.getCurrentUser() != null ){
+        if (autenticacao.getCurrentUser() != null) {
             abrirTelaPrincipal();
         }
     }

@@ -28,7 +28,6 @@
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.CadastroActivity" />
 
-
     </application>
 
 </manifest>
