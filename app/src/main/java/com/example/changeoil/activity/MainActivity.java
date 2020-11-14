@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageButton buttonRegister;
     private TextInputEditText editData, editKm, editTipo;
-    private EditText textKm, textData;
+    private EditText textKm, textData, textTipo;
     private static final String ARQUIVO_PREFERENCIA = "ArquivoPreferencia";
     private FirebaseAuth autenticacao;
 
@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         editTipo = findViewById(R.id.editTipo);
         textData = findViewById(R.id.textData);
         textKm = findViewById(R.id.textKm);
+        textTipo = findViewById(R.id.textTipo);
+
 
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +66,9 @@ public class MainActivity extends AppCompatActivity {
                     editor.commit();
 
                     textData.setText(dataTroca);
-                    textKm.setText(tipoTroca);
+                    textKm.setText(kmTroca);
+                    textTipo.setText(tipoTroca);
+
                 }
             }
         });

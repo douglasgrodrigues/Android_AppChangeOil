@@ -40,23 +40,22 @@
         android:layout_width="75dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="100.000"
         android:inputType="number"
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textData"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textData"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toEndOf="@+id/textData" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         android:gravity="center"
         android:text="km"
         android:textColor="@color/colorPrimary"
@@ -64,16 +63,16 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/textKm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textKm" />
+        app:layout_constraintStart_toEndOf="@+id/textData" />
 
     <EditText
         android:id="@+id/textData"
-        android:layout_width="95dp"
-        android:layout_height="wrap_content"
+        android:layout_width="139dp"
+        android:layout_height="41dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="108dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="01/02/2020"
         android:inputType="date"
         android:outlineAmbientShadowColor="#F3ECEC"
         android:outlineSpotShadowColor="#EFEDED"
@@ -82,11 +81,29 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorLink="@color/colorPrimary"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/textKm"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/textTipo"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="date"
+        android:outlineAmbientShadowColor="#F3ECEC"
+        android:outlineSpotShadowColor="#EFEDED"
+        android:shadowColor="#EFEAEA"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textData"
+        app:layout_constraintEnd_toStartOf="@+id/textData"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
